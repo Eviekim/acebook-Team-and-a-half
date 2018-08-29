@@ -1,0 +1,93 @@
+body{
+  margin: 0px;
+}
+
+#signup{
+  background-color: #468C98;
+  margin: 0px;
+  padding: 0px;
+}
+
+#wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+#signin {
+  margin-top: -285px;
+  background-color: #EFEBCE;
+  flex: 0 0 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#signup{
+  margin-top: 20
+  px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#acebook{
+  float: left;
+  position: fixed;
+  top: 0;
+  left: 75%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 100px;
+  z-index: 999;
+  width: 100%;
+  height: 23px;
+  color: #468C98;
+}
+
+input{
+  width: 280px;
+  height: 35px;
+}
+
+#signin-text, #signup-text{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+
+}
+
+#signin-text{
+  color: #468C98;
+}
+#signup-text{
+  color: white;
+}
+
+#signup-form label{
+  color: white;
+}
+
+#signin-form label{
+  color: #468C98;
+}
+
+#signin-line, #signup-line{
+  position: absolute;
+  bottom: 100px;
+  text-align: center;
+}
+
+#signin-line{
+  color: #468C98;
+}
+
+label{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+
+p{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 28px;
+  font-style: italic;
+}
